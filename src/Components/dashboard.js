@@ -9,8 +9,8 @@ export default function Dashboard() {
     <>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid mx-3">
-          <a className="navbar-brand " href="#">
-          <p className="mb-0 fs-4 fw-semibold"><FontAwesomeIcon icon={faFeather} /> {5+5}</p>
+          <a className="navbar-brand " href="/">
+          <p className="mb-0 fs-4 fw-semibold"><FontAwesomeIcon icon={faFeather} /> Magical</p>
           </a>
           <button
             className="navbar-toggler"
@@ -48,23 +48,23 @@ export default function Dashboard() {
       <div className="row m-0">
         <div className="col-2 sider">
             <div className="list">
-                <a href="#" className="active"><i class="fa-regular fa-grid-2 ms-1 me-2"></i>Dashboard</a>
+                <a href="/" className="active"><i class="fa-regular fa-grid-2 ms-1 me-2"></i>Dashboard</a>
 
-                <a href="#"><i className="fa-regular fa-gear ms-1 me-2"></i>Widgets</a>
+                <a href="/"><i className="fa-regular fa-gear ms-1 me-2"></i>Widgets</a>
                 
-                <a href="#"><i className="fa-regular fa-table-layout ms-1 me-2"></i>UI Elements <i className="fa-solid fa-angle-right self"></i></a>
+                <a href="/"><i className="fa-regular fa-table-layout ms-1 me-2"></i>UI Elements <i className="fa-solid fa-angle-right self"></i></a>
             
-                <a href="#"><i className="fa-regular fa-image ms-1 me-2"></i>Advanced UI <i className="fa-solid fa-angle-right self"></i></a>
+                <a href="/"><i className="fa-regular fa-image ms-1 me-2"></i>Advanced UI <i className="fa-solid fa-angle-right self"></i></a>
             
-                <a href="#"><i className="fa-regular fa-table-columns ms-1 me-2"></i>Form elements <i className="fa-solid fa-angle-right self"></i></a>
+                <a href="/"><i className="fa-regular fa-table-columns ms-1 me-2"></i>Form elements <i className="fa-solid fa-angle-right self"></i></a>
             
-                <a href="#"><i className="fa-regular fa-brightness ms-1 me-2"></i>Editors <i className="fa-solid fa-angle-right self"></i></a>
+                <a href="/"><i className="fa-regular fa-brightness ms-1 me-2"></i>Editors <i className="fa-solid fa-angle-right self"></i></a>
             
-                <a href="#"><i className="fa-regular fa-signal-bars ms-1 me-2"></i>Charts <i className="fa-solid fa-angle-right self"></i></a>
+                <a href="/"><i className="fa-regular fa-signal-bars ms-1 me-2"></i>Charts <i className="fa-solid fa-angle-right self"></i></a>
 
-                <a href="#"><i className="fa-regular fa-table-cells-large ms-1 me-2"></i>Tables <i className="fa-solid fa-angle-right self"></i></a>
+                <a href="/"><i className="fa-regular fa-table-cells-large ms-1 me-2"></i>Tables <i className="fa-solid fa-angle-right self"></i></a>
             
-                <a href="#"><i className="fa-solid fa-arrow-up-right-from-square ms-1 me-2"></i>Popups</a>
+                <a href="/"><i className="fa-solid fa-arrow-up-right-from-square ms-1 me-2"></i>Popups</a>
             </div>
         </div>
         <div className="col-10 content">
